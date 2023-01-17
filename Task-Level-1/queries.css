@@ -2,7 +2,7 @@
 /* In queries we use em insted of rem 
     1rem = 1em = 16px
 */
- @media (max-width: 45em) {
+ @media (max-width: 115em) {
     html {
         /* 9px / 16px  */
         font-size: 56.25%;
