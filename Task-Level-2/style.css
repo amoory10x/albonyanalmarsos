@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background-color: #009578;
+}
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  letter-spacing: -0.5px;
+}
+
+input {
+  font-size: 1.6rem;
+  list-style: none;
+  color: #333;
+  margin-bottom: 1.2rem;
+  background-color: #fff;
+  border-radius: 0.6rem;
+  /* border: none; */
+}
+.input {
+  padding: 1.2rem 3.2rem;
+  border: none;
+}
+.item {
+  padding: 1rem;
+  background-color: #009578;
+  color: #fff;
+  font-size: 1.6rem;
+  list-style: none;
+  margin-bottom: 1.2rem;
+  border-radius: 0.6rem;
+  border: none;
+  cursor: move;
+  position: relative;
+}
+button {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #00866d;
+  padding: 1.6rem 9.7rem;
+  border-radius: 0.6rem;
+  border: none;
+  cursor: pointer;
+}
+button:hover,
+button:active {
+  background-color: #04a689;
+}
+.container {
+  width: 80rem;
+  margin: 12.8rem auto;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+.title {
+  font-size: 3rem;
+  letter-spacing: -0.5px;
+}
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4.2rem;
+
+  /* align-items: center; */
+  /* justify-items: center; */
+}
+.box {
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1.6rem;
+  width: 26rem;
+}
+.edit {
+  font-size: 1.6rem;
+  position: absolute;
+  top: 5px;
+  right: 25px;
+  cursor: pointer;
+}
+.delete {
+  font-size: 1.6rem;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+li {
+  display: flex;
+  position: relative;
+}
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
